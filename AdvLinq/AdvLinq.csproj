@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <PackageId>AdvLinq.AlexPshul</PackageId>
+    <PackageVersion>0.9.0</PackageVersion>
+    <Authors>Alex Pshul</Authors>
+    <Description>An advanced LINQ operations package.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageTags>Linq AdvLinq Standard</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.9.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.1\AdvLinq.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
