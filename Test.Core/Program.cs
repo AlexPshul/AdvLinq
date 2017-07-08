@@ -10,11 +10,13 @@ namespace Test.Core
         {
             Random r = new Random();
 
-            Enumerable
-                .Range(1, 100)
-                .Select(_ => r.Next(1, 100))
-                .SelectIf(number => number > 50, _ => "Bigger", _ => "Smaller")
-                .ForEach(Console.WriteLine);
+            //Enumerable
+            //    .Range(1, 100)
+            //    .Select(_ => r.Next(1, 100))
+            //    .SelectIf(number => number > 50, _ => "Bigger", _ => "Smaller")
+            //    .ForEach(Console.WriteLine);
+
+            
         }
     }
 }
