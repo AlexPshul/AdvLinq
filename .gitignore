@@ -6,3 +6,5 @@
 /AdvLinq/bin/Debug/netstandard1.1
 /AdvLinq/.vs/AdvLinq/v15
 /AdvLinq/bin/Release
+/Test.Core/obj
+/Test.Core/bin/Release/netcoreapp2.0

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26621.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvLinq", "AdvLinq.csproj", "{953773CD-2160-4607-9653-9DDCD19921DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvLinq", "AdvLinq.csproj", "{953773CD-2160-4607-9653-9DDCD19921DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Core", "..\Test.Core\Test.Core.csproj", "{C7F55968-9A2D-4BFF-A692-5CBC06B91A30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{953773CD-2160-4607-9653-9DDCD19921DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953773CD-2160-4607-9653-9DDCD19921DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953773CD-2160-4607-9653-9DDCD19921DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F55968-9A2D-4BFF-A692-5CBC06B91A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F55968-9A2D-4BFF-A692-5CBC06B91A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F55968-9A2D-4BFF-A692-5CBC06B91A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F55968-9A2D-4BFF-A692-5CBC06B91A30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67276ED3-42A8-42C6-AF1B-0C8D2EA5ED93}
 	EndGlobalSection
 EndGlobal
